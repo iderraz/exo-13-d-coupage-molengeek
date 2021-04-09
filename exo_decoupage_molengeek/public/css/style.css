@@ -1,105 +1,122 @@
-body{
+body {
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
-  
-
+  margin-bottom: 0;
 }
 
-#newsletter{
+#newsletter {
   background-color: purple;
   height: 50px;
-  }
-#champs_newsletter{
+}
 
+#champs_newsletter {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -40px;
 }
-span{
-  color:lightblue;
- 
+
+span {
+  color: lightblue;
 }
-button{
-  color:lightblue;
+
+button {
+  color: lightblue;
   border-radius: 10%;
   background-color: green;
 }
-input{
+
+input {
   border-radius: 10%;
 }
+
+
 /*fin navbar purple*/
 
 
-.menu>ul{
+/*début logo et menu*/
+.menu>ul {
   height: 100px;
   width: 1287px;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
-  
-
 }
 
-
-nav{
+nav {
   height: 100px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   border-bottom: 1px solid #000;
   width: 100%;
 }
 
-#newsletter img{
+#newsletter img {
   width: 50px;
 }
-nav>div>img{
+
+nav>div>img {
   height: 90px;
-  width: 50px%;
-  margin-left:0;
+  width: 90%;
+  margin-left: 0;
 }
 
-.logo{
+.logo {
   display: inline-block;
   margin-left: 0;
 }
 
-#contenu{
+#contenu {
   width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-#contenu>p,ul,h2{
-  text-align:justify;
+#contenu>p, ul, h2 {
+  text-align: justify;
 }
 
-#contenu>h1{
-  text-align:center;
+#contenu>h1 {
+  text-align: center;
 }
 
+
+/*fin logo et menu*/
 
 
 /*footer début*/
 
-#champs_newsletter div{
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-}
-
-.section{
+.section {
   height: 50px;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid lightslategray;
 }
-footer>p{
-  text-align:center;
+
+footer>p {
+  text-align: center;
+}
+
+footer>img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 200px;
+  background-color: grey;
+}
+
+footer{
+  background-color: grey;
+  margin-bottom: -20px;
+}
+
+footer>section>div>a{
+  text-decoration: none;
 }
 
